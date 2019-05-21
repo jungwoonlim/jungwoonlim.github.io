@@ -25,9 +25,13 @@
     <div id="display">
         <div id="work">
             <h1>Work.</h1>
-            <div id="projects"></div>
+            <div class="projects" id="work_section"></div>
         </div>
-        <div id="blog_section" style="display:none;">
+        <div id="forks" style="display:none;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
             <h1>Blog.</h1>
             <div id="blogs"></div>
         </div>
@@ -45,10 +49,13 @@
         document.getElementById("loading").style.display = "none";
         },800);
     },1500);
-    $.getJSON("./blog/blog.json", function(blog){
+    $.getJSON("blog.json", function(blog){
+        if(blog.length == 0){
+            return document.getElementById("blog_section").style.display = "none";
+        }
         for(var i = 0; i < blog.length; i++){
             $("#blogs").append(`
-            <a href="/blog/${blog[i].url_title}/" target="_blank">
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
                     <img src="${blog[i].top_image}">
                     <div class="blog_container">
@@ -59,7 +66,7 @@
                     </div>
                 </section>
             </a>
-            `)
+            `);
         }
     });
     </script>
