@@ -61,6 +61,94 @@
       <div id="work">
         <h1>Work.</h1>
         <div class="projects" id="work_section">
+          <a
+            href="https://github.com/jungwoonlim/react-ToDoApp"
+            target="_blank"
+          >
+            <section>
+              <div class="section_title">react-ToDoApp</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >create to do app with react js</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a href="https://github.com/jungwoonlim/react-style" target="_blank">
+            <section>
+              <div class="section_title">react-style</div>
+              <div class="about_section">
+                <span style="display:block;">react styled Components</span>
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; HTML</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a href="https://github.com/jungwoonlim/weatherApp" target="_blank">
+            <section>
+              <div class="section_title">weatherApp</div>
+              <div class="about_section">
+                <span style="display:block;">React Native</span>
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a
+            href="https://github.com/jungwoonlim/cloneCoding-guessMine"
+            target="_blank"
+          >
+            <section>
+              <div class="section_title">cloneCoding-guessMine</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >Realtime Drawing Game built with SocketIO, Gulp and
+                  Node</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
+          <a href="https://github.com/jungwoonlim/toDoList-v2" target="_blank">
+            <section>
+              <div class="section_title">toDoList-v2</div>
+              <div class="about_section">
+                <span style="display:block;"
+                  >Making a todolist with vanilla JS - v2 - todomvc</span
+                >
+              </div>
+              <div class="bottom_section">
+                <span style="display:inline-block;"
+                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
+                >
+                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+              </div>
+            </section>
+          </a>
           <a href="https://github.com/jungwoonlim/musicApp" target="_blank">
             <section>
               <div class="section_title">musicApp</div>
@@ -89,7 +177,7 @@
               </div>
               <div class="bottom_section">
                 <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; HTML</span
+                  ><i class="fas fa-code"></i>&nbsp; CSS</span
                 >
                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
@@ -161,7 +249,7 @@
                 <span style="display:inline-block;"
                   ><i class="fas fa-code"></i>&nbsp; JavaScript</span
                 >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                <span><i class="fas fa-star"></i>&nbsp; 1</span>
                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
               </div>
             </section>
@@ -199,18 +287,18 @@
         }
         for (var i = 0; i < blog.length; i++) {
           $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_blank">
-                <section>
-                    <img src="${blog[i].top_image}">
-                    <div class="blog_container">
-                        <div class="section_title">${blog[i].title}</div>
-                        <div class="about_section">
-                            ${blog[i].sub_title}
-                        </div>
-                    </div>
-                </section>
-            </a>
-            `);
+          <a href="./blog/${blog[i].url_title}/" target="_blank">
+              <section>
+                  <img src="${blog[i].top_image}">
+                  <div class="blog_container">
+                      <div class="section_title">${blog[i].title}</div>
+                      <div class="about_section">
+                          ${blog[i].sub_title}
+                      </div>
+                  </div>
+              </section>
+          </a>
+          `);
         }
       });
     </script>
