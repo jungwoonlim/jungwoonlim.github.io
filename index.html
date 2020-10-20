@@ -1,306 +1,361 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>jungwoonlim</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="index.css" />
-    <link
-      rel="icon"
-      href="https://avatars1.githubusercontent.com/u/31039869?v=4"
-      type="image/png"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars1.githubusercontent.com/u/31039869?v=4" type="image/png"></head>
 
-  <body>
+<body>
     <div id="loading">
-      <div id="spinner"></div>
+        <div id="spinner"></div>
     </div>
     <div id="profile">
-      <div
-        id="profile_img"
-        style="background: url(https://avatars1.githubusercontent.com/u/31039869?v=4) center;"
-      ></div>
-      <div id="username">
-        <span style="display:block;">jCloud</span>@jungwoonlim
-      </div>
-      <div id="userbio" style="display: none;">undefined</div>
-      <div id="about">
-        <span style="display:none;"
-          ><i class="fas fa-users"></i> &nbsp; null</span
-        >
-        <span style="display:none;"
-          ><i class="fas fa-envelope"></i> &nbsp; null</span
-        >
-        <span style="display:none;"><i class="fas fa-link"></i> &nbsp; </span>
-        <span style="display:none;"
-          ><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; null</span
-        >
-        <span style="display:none;"
-          ><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span
-        >
-      </div>
+        <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/31039869?v=4) center;"></div>
+        <div id="username"><span style="display:block;">jCloud</span><a href="https://github.com/jungwoonlim">@jungwoonlim</a></div>
+        <div id="userbio" style="display: none;">undefined</div>
+        <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href=""></a></span>
+                <span style="display:none;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
     </div>
     <div id="display">
-      <div id="work">
-        <h1>Work.</h1>
-        <div class="projects" id="work_section">
-          <a
-            href="https://github.com/jungwoonlim/react-ToDoApp"
-            target="_blank"
-          >
-            <section>
-              <div class="section_title">react-ToDoApp</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >create to do app with react js</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/react-style" target="_blank">
-            <section>
-              <div class="section_title">react-style</div>
-              <div class="about_section">
-                <span style="display:block;">react styled Components</span>
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; HTML</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/weatherApp" target="_blank">
-            <section>
-              <div class="section_title">weatherApp</div>
-              <div class="about_section">
-                <span style="display:block;">React Native</span>
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a
-            href="https://github.com/jungwoonlim/cloneCoding-guessMine"
-            target="_blank"
-          >
-            <section>
-              <div class="section_title">cloneCoding-guessMine</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >Realtime Drawing Game built with SocketIO, Gulp and
-                  Node</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/toDoList-v2" target="_blank">
-            <section>
-              <div class="section_title">toDoList-v2</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >Making a todolist with vanilla JS - v2 - todomvc</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/musicApp" target="_blank">
-            <section>
-              <div class="section_title">musicApp</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >Build A Music App With JavaScript | Dev Ed</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; HTML</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a
-            href="https://github.com/jungwoonlim/jungwoonlim.github.io"
-            target="_blank"
-          >
-            <section>
-              <div class="section_title">jungwoonlim.github.io</div>
-              <div class="about_section">
-                <span style="display:block;">Developer's Github page!</span>
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; CSS</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a
-            href="https://github.com/jungwoonlim/cloneCoding-wetube"
-            target="_blank"
-          >
-            <section>
-              <div class="section_title">cloneCoding-wetube</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >Cloning Youtube with Vanilla and NodeJS</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/toDoJS" target="_blank">
-            <section>
-              <div class="section_title">toDoJS</div>
-              <div class="about_section">
-                <span style="display:none;">undefined</span>
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a
-            href="https://github.com/jungwoonlim/cloneCoding-kakao"
-            target="_blank"
-          >
-            <section>
-              <div class="section_title">cloneCoding-kakao</div>
-              <div class="about_section">
-                <span style="display:block;">Clone Coding - Kakao Talk</span>
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; HTML</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
-          <a href="https://github.com/jungwoonlim/paintJS" target="_blank">
-            <section>
-              <div class="section_title">paintJS</div>
-              <div class="about_section">
-                <span style="display:block;"
-                  >Painting Board made with VanillaJS</span
-                >
-              </div>
-              <div class="bottom_section">
-                <span style="display:inline-block;"
-                  ><i class="fas fa-code"></i>&nbsp; JavaScript</span
-                >
-                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-              </div>
-            </section>
-          </a>
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                        <a href="https://github.com/jungwoonlim/gltf-loader" target="_blank">
+                        <section>
+                            <div class="section_title">gltf-loader</div>
+                            <div class="about_section">
+                            <span style="display:block;">Using Three.js with gltf file</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/jweb-rtc" target="_blank">
+                        <section>
+                            <div class="section_title">jweb-rtc</div>
+                            <div class="about_section">
+                            <span style="display:block;">Try using WebRTC. </span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/prismagram" target="_blank">
+                        <section>
+                            <div class="section_title">prismagram</div>
+                            <div class="about_section">
+                            <span style="display:block;">Instragram clone with Express + Prisma + React and React Native</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/movie-app-v2" target="_blank">
+                        <section>
+                            <div class="section_title">movie-app-v2</div>
+                            <div class="about_section">
+                            <span style="display:block;">Create Movie App with React js - ver.2</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/movieql-client" target="_blank">
+                        <section>
+                            <div class="section_title">movieql-client</div>
+                            <div class="about_section">
+                            <span style="display:block;">Client for the MovieQL API built with Apollo</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/movieql" target="_blank">
+                        <section>
+                            <div class="section_title">movieql</div>
+                            <div class="about_section">
+                            <span style="display:block;">Movie API with Graphql</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/supergulp" target="_blank">
+                        <section>
+                            <div class="section_title">supergulp</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/timer-app" target="_blank">
+                        <section>
+                            <div class="section_title">timer-app</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/kawai-todo" target="_blank">
+                        <section>
+                            <div class="section_title">kawai-todo</div>
+                            <div class="about_section">
+                            <span style="display:block;">Kawai To Do App made with React Native</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/master-react16" target="_blank">
+                        <section>
+                            <div class="section_title">master-react16</div>
+                            <div class="about_section">
+                            <span style="display:block;">react16</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/react-ToDoApp" target="_blank">
+                        <section>
+                            <div class="section_title">react-ToDoApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">create to do app with react js</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/react-style" target="_blank">
+                        <section>
+                            <div class="section_title">react-style</div>
+                            <div class="about_section">
+                            <span style="display:block;">react styled Components</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/weatherApp" target="_blank">
+                        <section>
+                            <div class="section_title">weatherApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">React Native</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/cloneCoding-guessMine" target="_blank">
+                        <section>
+                            <div class="section_title">cloneCoding-guessMine</div>
+                            <div class="about_section">
+                            <span style="display:block;">Realtime Drawing Game built with SocketIO, Gulp and Node</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/toDoList-v2" target="_blank">
+                        <section>
+                            <div class="section_title">toDoList-v2</div>
+                            <div class="about_section">
+                            <span style="display:block;">Making a todolist with vanilla JS - v2 - todomvc</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/musicApp" target="_blank">
+                        <section>
+                            <div class="section_title">musicApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">Build A Music App With JavaScript | Dev Ed</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/jungwoonlim.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">jungwoonlim.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">Developer's Github page!</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/cloneCoding-wetube" target="_blank">
+                        <section>
+                            <div class="section_title">cloneCoding-wetube</div>
+                            <div class="about_section">
+                            <span style="display:block;">Cloning Youtube with Vanilla and NodeJS</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/toDoJS" target="_blank">
+                        <section>
+                            <div class="section_title">toDoJS</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/cloneCoding-kakao" target="_blank">
+                        <section>
+                            <div class="section_title">cloneCoding-kakao</div>
+                            <div class="about_section">
+                            <span style="display:block;">Clone Coding - Kakao Talk</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/jungwoonlim/paintJS" target="_blank">
+                        <section>
+                            <div class="section_title">paintJS</div>
+                            <div class="about_section">
+                            <span style="display:block;">Painting Board made with VanillaJS</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
         </div>
-      </div>
-      <div id="forks" style="display:none;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section"></div>
-      </div>
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
-      <div id="footer">
-        <a href="https://github.com/imfunniee" target="_blank"
-          >made on earth by a human</a
-        >
-      </div>
+        <div id="forks" style="display:none;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+        </div>
     </div>
     <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
-        for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
-          <a href="./blog/${blog[i].url_title}/" target="_blank">
-              <section>
-                  <img src="${blog[i].top_image}">
-                  <div class="blog_container">
-                      <div class="section_title">${blog[i].title}</div>
-                      <div class="about_section">
-                          ${blog[i].sub_title}
-                      </div>
-                  </div>
-              </section>
-          </a>
-          `);
-        }
-      });
+        setTimeout(function () {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function () {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function (blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return document.getElementById("blog_section").style.display = "none";
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+            }
+        }).fail(function () {
+            return document.getElementById("blog_section").style.display = "none";
+        });
     </script>
-  </body>
-</html>
+
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
+        }
+    </script>
+
+
+</body></html>
