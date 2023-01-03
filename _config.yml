@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: jCloud                          # the main title
+title: jCloud's blog                          # the main title
 
 tagline: 구름 개발자 구름   # it will display as the sub-title
 
