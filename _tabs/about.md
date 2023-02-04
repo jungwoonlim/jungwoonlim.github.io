@@ -21,8 +21,8 @@ order: 4
   <tr style="background-color:initial;display:flex;flex-direction:column">
     <td>
       <div style="display:flex;flex-direction:column">
-        <div style="display:flex;align-items: center;">
-          <div style="width:80px">
+        <div style="display:flex">
+          <div style="width:6rem">
             <img src="/assets/img/medit.png" alt="medit">
           </div>
           <div style="width:100%;margin-left:1rem">
@@ -34,7 +34,7 @@ order: 4
               메디트
             </a>
             <div style="font-size:20px;font-weight:700">프론트엔드 개발자</div>
-            <p style="font-size:16px;font-weight:400">2021년 8월 - 2023년 1월</p>
+            <p style="font-size:16px;font-weight:400">2021년 8월 - 2023년 2월</p>
           </div>
         </div>
         <div style="width:100%">
@@ -48,8 +48,8 @@ order: 4
     </td>
     <td>
       <div style="display:flex;flex-direction:column">
-        <div style="display:flex;align-items: center;">
-          <div style="width:80px">
+        <div style="display:flex;align-items:center;">
+          <div style="width:6rem">
             <img src="/assets/img/morpheus3d.png" alt="morphues3d">
           </div>
           <div style="width:100%;margin-left:1rem">
@@ -88,6 +88,6 @@ order: 4
 
 <div>
   <div style="font-size:20px;font-weight:700">함수형 프로그래밍 스터디</div>
-  <p style="font-size:16px;font-weight:400">2022년 2월 - 2021년 5월</p>
+  <p style="font-size:16px;font-weight:400">2021년 2월 - 2021년 5월</p>
   <p>교재: <a href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000003160828" target="_blank">함수형 자바스크립트 프로그래밍</a></p>
 </div>
