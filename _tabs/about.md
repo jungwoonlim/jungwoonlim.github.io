@@ -23,6 +23,26 @@ order: 4
       <div style="display:flex;flex-direction:column">
         <div style="display:flex">
           <div style="width:6rem">
+            <img src="/assets/img/nhn-kcp.jpg" alt="nhn-kcp">
+          </div>
+          <div style="width:100%;margin-left:1rem">
+            <a
+              href="https://www.medit.com/"
+              target="_blank"
+              style="color:#00b0ff;font-size:20px;font-weight:700;text-decoration:none;cursor:pointer"
+            >
+              NHN KCP
+            </a>
+            <div style="font-size:20px;font-weight:700">프론트엔드 개발자</div>
+            <p style="font-size:16px;font-weight:400">2023년 2월</p>
+          </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:flex">
+          <div style="width:6rem">
             <img src="/assets/img/medit.png" alt="medit">
           </div>
           <div style="width:100%;margin-left:1rem">
