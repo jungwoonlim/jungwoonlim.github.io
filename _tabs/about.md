@@ -97,12 +97,12 @@ order: 4
 
 ## Portfolio
 
-<a href="https://jungwoonlim.github.io/jcloud-portfolio-theme-cloud/" target="_blank">jCloud's Portfolio</a>
+<a href="https://jungwoonlim.github.io/portfolio/" target="_blank">jCloud's Portfolio</a>
 
 ## Study
 <div>
   <div style="font-size:20px;font-weight:700">자바스크립트 스터디</div>
-  <p style="font-size:16px;font-weight:400">2022년 12월 - 진행 중</p>
+  <p style="font-size:16px;font-weight:400">2022년 12월 - 3월</p>
   <p>교재: <a href="https://product.kyobobook.co.kr/detail/S000061550045" target="_blank">웹 개발자를 위한 자바스크립트의 모든 것</a></p>
 </div>
 
