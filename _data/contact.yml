@@ -4,6 +4,10 @@
   type: github
   icon: 'fab fa-github'
 -
+  type: linkedin
+  icon: 'fab fa-linkedin-in'
+  url: 'https://www.linkedin.com/in/jungwoon-lim-a0196a207/'
+-
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
