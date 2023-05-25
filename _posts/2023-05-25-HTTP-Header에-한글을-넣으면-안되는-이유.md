@@ -48,7 +48,7 @@ HTTP Header를 다룰 때는 몇 가지 규칙과 표준을 따릅니다.
 
 ISO-8859-1(Latin-1) 이외의 것은 사용할 수 없다고 나와 있습니다.
 
-<img src="https://www.charset.org/img/charsets/iso-8859-1.gif" alt="" width="800" fill="white" priority />
+<img src="https://www.charset.org/img/charsets/iso-8859-1.gif" alt="" width="600" priority />
 
 즉, 한글은 표준 규격(ISO-8859-1)에 맞지 않기 때문에 한글을 사용할 수 없는 것입니다.
 
