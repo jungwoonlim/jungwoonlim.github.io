@@ -74,4 +74,5 @@ HTTP Header에 한글을 직접 사용하는 것은 표준 규격이 바뀌기 �
 - [HTTP Header](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers)
 - [HTTP Header에 한글 넣으면 발생하는 오류](https://imksh.com/101)
 - [HTTP Header User-Agent](https://jammdev.tistory.com/m/171)
-- [Character Set and Language Encoding for Hypertext Transfer Protocol (HTTP) Header Field Parameters](https://datatracker.ietf.org/doc/html/rfc5987)
+- [RTC-3986](https://datatracker.ietf.org/doc/html/rfc3986#section-2.1)
+- [RTC-5987](https://datatracker.ietf.org/doc/html/rfc5987)
