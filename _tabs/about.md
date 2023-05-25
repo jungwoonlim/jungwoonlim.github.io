@@ -23,7 +23,7 @@ order: 4
       <div style="display:flex;flex-direction:column">
         <div style="display:flex">
           <div style="width:6rem">
-            <img src="/assets/img/nhn-kcp.jpg" alt="nhn-kcp">
+            <img src="/assets/img/nhn-kcp.jpg" alt="" priority>
           </div>
           <div style="width:100%;margin-left:1rem">
             <a
@@ -43,7 +43,7 @@ order: 4
       <div style="display:flex;flex-direction:column">
         <div style="display:flex">
           <div style="width:6rem">
-            <img src="/assets/img/medit.png" alt="medit">
+            <img src="/assets/img/medit.png" alt="" priority>
           </div>
           <div style="width:100%;margin-left:1rem">
             <a
@@ -70,7 +70,7 @@ order: 4
       <div style="display:flex;flex-direction:column">
         <div style="display:flex;align-items:center;">
           <div style="width:6rem">
-            <img src="/assets/img/morpheus3d.png" alt="morphues3d">
+            <img src="/assets/img/morpheus3d.png" alt="" priority>
           </div>
           <div style="width:100%;margin-left:1rem">
             <a
